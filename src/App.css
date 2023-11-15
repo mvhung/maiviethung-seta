@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.post-container{
+  display: flex;
+}
+
+.post-list{
+  flex: 1;
+}
+.post-list ul{
+  display: flex;
+    flex-flow: wrap;
+}
+.post-item{
+  --padding: 40px;
+  width: calc(50% - var(--padding)*2);
+  padding: 0 var(--padding);
+}
